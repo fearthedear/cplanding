@@ -1,0 +1,62 @@
+body {
+	margin: 0px 30px!important;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+#fp-nav {
+	margin-right: 20px;
+}
+
+#iphone {
+	max-width: 250px;
+	position: absolute;
+	left: 20%;
+	top: 20%;
+}
+
+#header, #footer{
+	position:fixed;
+	height: 50px;
+	display:block;
+	width: 100%;
+	background: white;
+	z-index:9;
+	text-align:center;
+	color: #f2f2f2;
+	padding: 0 0 0 0;
+}
+
+#header{
+	top:0px;
+}
+#footer{
+	bottom:0px;
+}
+
+#myMenu {
+	list-style-type: none;
+	padding: 15px 0px;
+}
+
+#myMenu li {
+	display: inline;
+	margin: 15px 20px;
+	color: black;
+}
+
+.brand {
+	font-family: Helvetica;
+	position: fixed;
+	left: 30px;
+	top: 15px;
+	color: pink;
+	margin: 0!important;
+	font-size: 1.25em;
+}
+.brand span {
+	font-weight: bolder;
+}
